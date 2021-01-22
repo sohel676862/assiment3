@@ -14,7 +14,7 @@ function kilometerToMeter(kilomitter) {
 
 console.log(kilometerToMeter(10))
 
-
+/////////////budgetCalculator//////////////
 function budgetCalculator(watch, phone, leptop) {
     var total = " ";
     if (watch, phone, leptop > 0) {
@@ -26,7 +26,7 @@ function budgetCalculator(watch, phone, leptop) {
         var leptop_price = 500
         var total_leptop = leptop * leptop_price;
         total = total_watch + total_phone + total_leptop
-        return total;
+
     } else {
         console.log("give the mobe price")
     }
